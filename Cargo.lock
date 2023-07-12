@@ -200,7 +200,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "todo-rs-htmx"
+name = "todo-app-rs-htmx"
 version = "0.1.0"
 dependencies = [
  "log",
