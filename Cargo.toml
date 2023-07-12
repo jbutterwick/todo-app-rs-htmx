@@ -1,0 +1,15 @@
+[package]
+name = "todo-rs-htmx"
+version = "0.1.0"
+edition = "2021"
+authors = [
+    "jordan <jordan@butterwick.tech>"
+]
+readme = "./README.md"
+license = "Unlicense"
+
+[dependencies]
+quiche = "0.17.2"
+mio = { version = "0.8", features = ["net", "os-poll"] }
+ring = "0.17.0-alpha.11"
+log = { version = "0.4", features = ["std"] }
